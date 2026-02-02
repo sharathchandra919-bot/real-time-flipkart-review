@@ -1,3 +1,5 @@
+--------------------PROJECT OVERVIEW---------------------
+
             Flipkart Reviews Dataset
                      |
               Data Preprocessing
@@ -13,3 +15,43 @@
         Streamlit Web App
              |
         AWS EC2 Deployment
+
+
+-----------------PROJECT ARCHITECTURE------------------------
+
+flipkart-sentiment-analysis/
+│
+├── data/
+│   ├── raw/
+│   │   └── flipkart_reviews.csv
+│   ├── processed/
+│   │   └── cleaned_reviews.csv
+│
+├── notebooks/
+│   ├── 01_eda.ipynb
+│   ├── 02_text_preprocessing.ipynb
+│   ├── 03_feature_engineering.ipynb
+│   ├── 04_model_training.ipynb
+│   ├── 05_model_evaluation.ipynb
+│
+├── src/
+│   ├── preprocessing.py
+│   ├── feature_engineering.py
+│   ├── train.py
+│   ├── evaluate.py
+│   └── utils.py
+│
+├── models/
+│   ├── tfidf_logreg.pkl
+│   └── bert_sentiment/
+│
+├── app/
+│   ├── app.py              # Streamlit or Flask
+│   └── requirements.txt
+│
+├── deployment/
+│   ├── ec2_setup.md
+│   └── run_app.sh
+│
+├── README.md
+└── requirements.txt
