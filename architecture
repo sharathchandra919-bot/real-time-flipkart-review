@@ -1,0 +1,15 @@
+            Flipkart Reviews Dataset
+                     |
+              Data Preprocessing
+                     |
+             TF-IDF Feature Extraction
+                     |
+              Logistic Regression Model
+                     |
+             --------------------------
+             |                        |
+        Model Evaluation        Pain Point Analysis
+             |
+        Streamlit Web App
+             |
+        AWS EC2 Deployment
