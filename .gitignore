@@ -1,0 +1,14 @@
+# SSH keys
+*.pem
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+mlops/
+
+# OS files
+.DS_Store
+Thumbs.db
