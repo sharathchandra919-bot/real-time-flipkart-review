@@ -26,14 +26,6 @@ flipkart-sentiment-analysis/
 │   │   └── flipkart_reviews.csv
 │   ├── processed/
 │   │   └── cleaned_reviews.csv
-│
-├── notebooks/
-│   ├── 01_eda.ipynb
-│   ├── 02_text_preprocessing.ipynb
-│   ├── 03_feature_engineering.ipynb
-│   ├── 04_model_training.ipynb
-│   ├── 05_model_evaluation.ipynb
-│
 ├── src/
 │   ├── preprocessing.py
 │   ├── feature_engineering.py
