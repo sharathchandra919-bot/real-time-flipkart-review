@@ -12,3 +12,8 @@ mlops/
 # OS files
 .DS_Store
 Thumbs.db
+
+mlflow.db
+mlruns/
+__pycache__/
+*.pkl
